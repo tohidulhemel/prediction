@@ -54,6 +54,7 @@ if st.button("🔍 Predict"):
     st.markdown("---")
 
     if prediction == 1:
-        st.error("⚠️ High Financial Distress Detected")
+        st.error("⚠️ Financial Distress Detected")
     else:
-        st.success("✅ Low Financial Distress Detected")
+        st.success("✅ No Financial Distress Detected")
+
